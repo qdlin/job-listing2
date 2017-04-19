@@ -16,3 +16,58 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+html,body{
+  height: 100%
+}
+
+.parent{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1{
+  font-weight: 300;
+  font-family: Lato;
+  margin: auto;
+}
+
+.blinking{
+  animation: blink 0.5s infinite alternate;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 1
+  }
+  100%{
+    opacity: 0
+  }
+}
+
+button{
+  border: none;
+  width: 100px;
+  margin: 20px auto;
+  outline: none;
+  padding: 5px;
+  color: white;
+  background: #555;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"]{
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
