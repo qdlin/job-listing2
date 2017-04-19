@@ -16,32 +16,3 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
-
-var str = "steve jobs"
-var splitstr = str.split('');
-
-timeInterval = 150;
-
-i = 0;
-
-function type(){
-  if(i<splitstr.length){
-    $('.text').append(splitstr[i]);
-    i++;
-    setTimeout(function () {
-      type();
-    }, timeInterval);
-  }else{
-
-  }
-}
-
-type();
-
-$('button').click(function(){
-  i = 0;
-  str = $('input').val();
-  splitstr = str.split('');
-  $('.text').text('');
-  type();
-});
