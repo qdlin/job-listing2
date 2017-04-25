@@ -30,7 +30,7 @@ body {
 }
 
 .jumbotron {
-  background-image:url('http://ww2.sinaimg.cn/large/006tNbRwgy1feu39xrumoj31kw0qzq6y.jpg');
+  background-image:url('https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
@@ -38,11 +38,17 @@ body {
   border-radius: 0;
 }
 
+#search-id {
+  width: 200px;
+  padding-top: 7px;
+}
+
 .title {
   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
   text-align: center;
   margin-top: 200px;
   margin-bottom: 80px;
+
 }
 
 .slogan {
@@ -162,4 +168,22 @@ body {
     color: white;
     margin-top: 30px;
   }
+}
+
+.jobs-show {
+  border-bottom: 1px dotted #CCC;
+  padding: 15px;
+  font-family: PingFangSC-Medium, Arial, Helvetica, sans-serif;
+}
+
+.search-info-title {
+  font-family: PingFangSC-Medium, Arial, Helvetica, sans-serif;
+  color: #0d6ded;
+  font-size: 20px;
+  text-align: center;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
 }

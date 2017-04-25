@@ -1,7 +1,14 @@
-<div class="pull-right">
-  <%= link_to("新增职位", new_job_path, :class => "btn btn-default" ) %>
-</div>
-<div class="dropdown clearfix pull-right">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-centered">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>
+      职位列表
+    <div class="pull-right">
+      <%= link_to("新增职位", new_job_path, :class => "btn btn-default" ) %>
+    </div>
+   <div class="dropdown clearfix pull-right">
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuDivider" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
       排序
         <span class="caret"></span>
@@ -19,7 +26,11 @@
 
         </li>
     </ul>
+   </div>
+ </div>
+</h3>
 </div>
+
 
 <table class="table table-boldered">
     <thead>
@@ -52,3 +63,6 @@
     </tbody>
 
 </table>
+    </div>
+  </div>
+</div>
