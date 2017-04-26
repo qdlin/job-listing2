@@ -1,18 +1,18 @@
-<div class="col-md-6">
+<div class="col-md-8 col-centered ">
  <div class="panel panel-default">
   <div class="panel-heading">新增职位</div>
-  <div class="panel-body">
+   <div class="panel-body">
 
-<%= simple_form_for @job do |f| %>
+   <%= simple_form_for @job do |f| %>
 
-<%= f.input :title %>
-<%= f.input :description %>
-<%= f.input :wage_lower_bound, :label => "薪资下限" %>
-<%= f.input :wage_upper_bound, :label => "薪资上限" %>
-<%= f.input :contact_email %>
-<%= f.input :is_hidden %>
-  <%= f.submit "Submit" %>
-<% end %>
+   <%= f.input :title %>
+   <%= f.input :description %>
+   <%= f.input :wage_lower_bound, :label => "薪资下限" %>
+   <%= f.input :wage_upper_bound, :label => "薪资上限" %>
+   <%= f.input :contact_email %>
+   <%= f.input :is_hidden %>
+   <%= f.submit "Submit" %>
+   <% end %>
+   </div>
   </div>
- </div>
 </div>
